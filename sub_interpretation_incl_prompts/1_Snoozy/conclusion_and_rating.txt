@@ -1,0 +1,27 @@
+Conclusion Conclusion: The replication attempt using an LLM to predict VTT at HKP was unsuccessful due to the limitations of available local LLMs, as well as insufficient consideration of other factors such as multiple runs or different settings. Future research could explore alternative approaches for improving prediction accuracy and reducing port congestion, including optimizing berth allocation based on real-time vessel arrival data rather than estimated departure times.
+Practical usage: Practical usage: The findings from this study can be applied in the maritime industry to improve efficiency and reduce operational expenses by accurately predicting VTT at ports such as HKP using a more advanced model or algorithm, taking into account multiple factors that affect vessel arrivals and departures.
+Future research: Future research: Further studies could explore the use of other machine learning models or algorithms for predicting VTT, as well as considering additional factors that may impact port operations, such as weather conditions or vessel scheduling conflicts. Additionally, investigating alternative approaches to berth allocation based on real-time vessel arrival data could potentially lead to even greater improvements in efficiency and cost savings at ports like HKP.
+
+
+
+       Evaluation by me
+Conclusion
+Relevance: 3/5. The conclusion is somewhat relevant to the research. No in depth results mentioned however. 
+Accuracy: 3/5.  “due to the limitations of available local LLMs” was never mentioned
+Coherence: 2/5. The structure is not very coherent. “in conclusion” used, and already mentions future research
+Insightfulness: 3/5: No new insights. Repeats study.
+Conciseness: 4/5: No wordiness. But very short.
+
+Practical Usage
+Relevance: 4/5. Quite relevant.
+Accuracy: 3/5. No false information, but tidal information / vessel specs were incorporated, as mentioned in the prompt.
+Coherence: 3/5. It is coherent.
+Insightfulness: 3/5: Only replicated prompt, no own insights
+Conciseness: 4/5: No wordiness, maybe a bit too short.
+
+Future research
+Relevance: 4/5. Quite relevant to research, but not all points mentioned by prompt are noticed.
+Accuracy: 5/5. No false information is given 
+Coherence: 4/5. The structure is quite coherent
+Insightfulness: 4/5. Thoughts of LLM, not provided in prompt, are given, about other techniques.
+Conciseness: 4/5. No wordiness, maybe a bit too short.

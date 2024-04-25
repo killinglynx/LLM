@@ -1,0 +1,27 @@
+Conclusion: Based on the replication study results and notes on methodology, it can be concluded that using LLMs to replicate Zhong's study on predicting vessel turnaround time at Hong Kong Port (HKP) has its limitations and challenges. However, it also shows potential in predicting VTT and reducing inaccuracies in EDT data, which can aid in efficient berth allocation and decision-making in port operations.
+
+Practical Usage: LLMs can be used to replicate Zhong's study and predict VTT at other ports, which can improve port efficiency, cost-effectiveness, and competitiveness in global trade networks. LLMs can also be used to predict other key metrics in port operations, such as cargo unloading and loading times, to enhance supply chain productivity and reduce bottlenecks and congestion.
+
+Future Research: Future research can explore using more advanced LLM models, such as GPT-3, to improve performance and efficiency in replicating Zhong's study and predicting VTT at ports. Research can also focus on developing LLMs specifically designed for port operations and optimizing their performance in various scenarios and data sets. Additionally, integrating LLMs into existing port management systems can be investigated to enhance their practical usage and real-world impact on port operations and global trade networks.
+
+       Evaluation by me
+Conclusion
+Relevance: 3/5. Somwhat relevant, all info from prompt repeated
+Accuracy: 3/5. “reducing inaccuracies in EDT data”, is weird and incorrect conclusion.
+Coherence: 4/5. The structure is coherent. Does not flow nice though.
+Insightfulness: 1/5: No new insights given
+Conciseness: 4/5: No wordiness. Very short
+
+Practical Usage
+Relevance: 3/5.  Mostly relevant. “Llms van be used to replicate Zhong’s study” :Facepalm:
+Accuracy: 4/5. No false information. It is however assumed that that LLMs can predict VTT, but they only wrote the code.
+Coherence: 4/5. The structure is coherent. Does not flow nice though.
+Insightfulness: 3/5: small insight given, about predicting other key metrics
+Conciseness: 4/5: No wordiness. Very short
+
+Future research
+Relevance: 3/5. Quite relevant to research, not all points from prompt are mentioned
+Accuracy: 4/5. No false information. It is however assumed that that LLMs can predict VTT, but they only wrote the code.
+Coherence: 5/5. The structure is quite coherent
+Insightfulness: 5/5. New insights given, about LLMs optimized for port operations etc.
+Conciseness: 4/5: No wordiness. Very short

@@ -1,0 +1,19 @@
+Conclusion:  This study aimed at predicting VTT using XGBoost regression model, which was then replicated by an LLM trained on my prompt history. The results of both models were compared and analyzed for their accuracy metrics such as RMSE (root mean squared error), MAE(mean absolute error) R-squared value etc., along with insights about the practical usage potential in port operations management decisions or supply chain optimization, future research directions to improve upon this methodology using other LLMs trained on my prompt history. 
+
+       Evaluation by me
+Conclusion
+Relevance: 2/5. Not really relevant. No results given
+Accuracy: 1/5. ‘trained on my prompt history’ and ‘insights about the practical usage potential ‘, is weird and incorrect conclusion.
+Coherence: 3/5. The structure is somewhat coherent.
+Insightfulness: 1/5: No new insights given
+Conciseness: 4/5: No wordiness. Very short
+
+Practical Usage
+not given
+
+Future research
+Relevance: 1/5. Not really relevant. Nothing from prompt repeated.
+Accuracy: 3/5. Again assumes that it is trained on prompt history
+Coherence: 4/5. The structure is quite coherent
+Insightfulness: 1/5. New insights given, about LLMs optimized for port operations etc.
+Conciseness: 3/5: No wordiness. Very short

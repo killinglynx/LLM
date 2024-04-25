@@ -1,0 +1,35 @@
+﻿Conclusion: In this replication study, we attempted to recreate the results of a previous study by Zhong et al., which aimed to predict vessel turnaround time (VTT) at Hong Kong Port (HKP). The original study used an extreme gradient boosting (XGBoost) regression model and achieved promising results with a root mean squared error (RMSE) of 4.60, mean absolute error (MAE) of 3.32, and R-squared value of 0.55 on a dataset of 7012 rows.
+
+We employed the LLM methodology to replicate this study using the Wizard v1.2 model. The preprocessing steps included time unification and feature engineering, while the model setup involved setting up an XGBoost regression model for performance evaluation. However, due to limitations in the current state of language models, we were unable to complete all the steps successfully.
+
+Despite these challenges, our replication study provides valuable insights into the potential applications and future research directions related to VTT prediction at HKP using LLMs. The results suggest that while LLMs can come close to achieving the same level of accuracy as traditional machine learning models in certain tasks, they may struggle with debugging and improving their performance over time without explicit guidance or supervision.
+
+Practical usage: In practical terms, this study highlights the need for further research on how to better utilize language models like Wizard v1.2 for complex data analysis tasks such as VTT prediction at HKP. 
+
+Future research: Future studies could explore different LLM settings (e.g., temperature, max length, repeat penalty), investigate other types of information that can be incorporated into the prompts, and compare the performance of various language models to identify their strengths and weaknesses in this context.
+
+Moreover, future research should also focus on developing more advanced methods for preprocessing and feature engineering with LLMs, as these steps are crucial for improving the accuracy and reliability of the results obtained from these models. By addressing these challenges, we can enhance the capabilities of language models in data analysis tasks and contribute to the advancement of AI research in various fields.
+
+
+
+       Evaluation by me
+Conclusion
+Relevance: 3/5. The point of the prototype model was missed. Otherwise it does mention all the results well. Does not recognize that it is about paper replication in general.
+Accuracy: 3/5.  The point of the prototype model was missed.  No other false information
+Coherence: 4/5. The structure is quite coherent
+Insightfulness: 4/5: Does notice limits of LLMs, not mentioned in prompt
+Conciseness: 5/5: No wordiness
+
+Practical Usage
+Relevance: 3/5. Quite relevant, but very limited.
+Accuracy: 5/5. No false information 
+Coherence: 4/5. It is logically structured and easy to follow,
+Insightfulness: 4/5: Gives it’s own insights, not mentioned by the prompt
+Conciseness: 5/5: No wordiness
+
+Future research
+Relevance: 4/5. Relevant to research.
+Accuracy: 5/5. No false information is given 
+Coherence: 4/5. The structure is quite coherent
+Insightfulness: 4/5. Thoughts of LLM, not provided in prompt, are given.
+Conciseness: 5/5. Not too long, not too short. No wordiness

@@ -1,0 +1,39 @@
+Conclusion of the Replication Study
+
+In this replication study, we aimed to reproduce the results of a prototype XGBoost model for predicting vessel turnaround time (VTT) at the HKP port. However, the replication process encountered significant challenges and limitations, resulting in incomplete results. The LLM used for the replication, specifically Evo.ninja, faced difficulties in writing code and experienced crashes after a few prompts, which hindered the successful execution of the replication methodology.
+
+Despite these limitations, this study underscores the importance of accurate VTT prediction in port operations. The optimization of VTT is crucial for enhancing port efficiency, reducing delays, and improving overall supply chain productivity. By minimizing inaccuracies and uncertainties in VTT estimation, ports can execute berth allocation more efficiently, benefiting the decision-making process in port operations.
+
+Practical Usage
+
+The findings from the prototype XGBoost model, although not fully replicated in this study, provide valuable insights for port operators and shipping companies. The predictive model, incorporating historical vessel arrival and departure data, vessel and port operational data, vessel generic features, and tidal information, has the potential to significantly minimize deviation errors in VTT prediction. Implementing such a model at the HKP port or other busy ports worldwide could lead to improved operational efficiency, reduced congestion, and enhanced competitiveness.
+
+Future Research
+
+This replication study highlights the need for further research to overcome the challenges faced in replicating the prototype model. Future studies could explore alternative methodologies for replicating complex models, such as utilizing different language models or adjusting LLM settings like temperature, max length, and repeat penalty. Additionally, investigating the impact of different information levels in prompts and conducting multiple runs of LLMs could provide valuable insights into improving replication success rates.
+
+Furthermore, it is essential to consider the replication of the prototype model using other language models to assess the generalizability of the results. Comparing the performance of different LLMs and exploring their potential variations in replicating the model could contribute to a more comprehensive understanding of the replication process.
+
+In conclusion, while this replication study faced challenges and limitations, it highlights the significance of accurate VTT prediction in port operations. The findings from the prototype XGBoost model provide valuable insights for port operators, and further research can build upon these insights to improve replication success rates and enhance the efficiency of port operations globally.
+
+       Evaluation by me
+Conclusion
+Relevance: 5/5. Very relevant, all info from prompt repeated
+Accuracy: 5/5. No factual error mentioned that some things could be done automatically.
+Coherence: 4/5. The structure is coherent
+Insightfulness: 1/5: no new insights given 
+Conciseness: 5/5: No wordiness.
+
+Practical Usage
+Relevance: 3/5. keypoint of replication using LLMs missed.
+Accuracy: 5/5. No false information.
+Coherence: 4/5. The structure is coherent
+Insightfulness: 1/5: No new insights given.
+Conciseness: 5/5: No wordiness.
+
+Future research
+Relevance: 5/5. Quite relevant to research, all points are mentioned
+Accuracy: 5/5. No false information.
+Coherence: 4/5. The structure is quite coherent
+Insightfulness: 1/5. No new insights given.
+Conciseness: 3/5: No wordiness. Says the same thing twice about ‘other language models’

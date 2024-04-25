@@ -1,0 +1,41 @@
+Conclusion
+In this replication study, we attempted to use two large language models (LLMs), Orca 2 and GPT-3, to reproduce the results of a previous study by Zhong et al. (2021) that predicted vessel turnaround time (VTT) at Hong Kong Port (HKP) using extreme gradient boosting (XGBoost). The original study reported that XGBoost model achieved an RMSE of 4.60, a MAE of 3.32 and an R-squared of 0.55 on a dataset of 7012 rows. However, our replication efforts faced several challenges and limitations that prevented us from obtaining similar or better results with the LLMs.
+
+Firstly, we found that pre-processing steps such as time-unification, duplicate removal and matching ATA and ETD data were either failed or partial due to the inconsistencies and errors in the original dataset. This suggests that the quality of the input data is crucial for the performance of LLMs, and that more careful data cleaning and validation are needed before applying them to complex tasks like VTT prediction.
+
+Secondly, we encountered difficulties in feature engineering, such as feature selection and categorical encoding, which are essential for improving the interpretability and accuracy of XGBoost models. The LLMs did not provide any meaningful insights or suggestions on how to engineer features from the raw data, nor did they generate any relevant features that could enhance the model performance. This indicates that feature engineering is still a challenging task for LLMs, and that more human expertise and domain knowledge are required to guide them in this process.
+
+Thirdly, we failed to set up and evaluate an XGBoost model using the LLMs, as they did not produce any code or instructions on how to implement or tune the model parameters. Instead, they only gave vague or irrelevant outputs that were not useful for building or testing the model. This implies that LLMs are still far from being able to automatically generate and optimize XGBoost models, and that more manual intervention and trial-and-error are needed to achieve satisfactory results.
+
+In conclusion, our replication study showed that using LLMs to predict VTT at HKP is a very challenging and complex task that requires high-quality data, feature engineering and model setup. The current state-of-the-art LLMs are not capable of performing these tasks without human guidance and assistance, and they often produce errors or irrelevant outputs that hinder the replication process. Therefore, we suggest that future research should focus on improving the quality and consistency of the input data, enhancing the feature engineering and model setup methods, and evaluating the performance and robustness of LLMs in this domain. Additionally, more comparative studies between LLMs and other machine learning techniques are needed to assess their strengths and weaknesses in VTT prediction.
+
+Practical usage: The results of our replication study can be used as a baseline for further improvement and evaluation of LLMs in the domain of maritime transport and port efficiency. By identifying the limitations and challenges of using LLMs, we can provide valuable feedback and insights to researchers and practitioners who are interested in applying or developing LLMs for this purpose. Moreover, by highlighting the importance of data quality, feature engineering and model setup, we can raise awareness and encourage best practices among the users of LLMs.
+
+Possible future research: Some possible directions for future research based on our replication study are:
+
+- Investigating alternative or more advanced pre-processing methods that can handle the inconsistencies and errors in the original dataset, such as data imputation, outlier detection and correction, and data integration.
+- Exploring different ways of engineering features from the raw data using LLMs, such as extracting relevant keywords, phrases or sentences, generating synthetic features based on semantic similarity or related concepts, or applying dimensionality reduction techniques to reduce noise and increase interpretability.
+- Developing new or improved methods of setting up and evaluating XGBoost models using LLMs, such as generating code snippets, testing different hyperparameters, or comparing different model architectures or ensembles.
+
+
+       Evaluation by me
+Conclusion
+Relevance: 2/5. The point of the prototype model was missed. Otherwise it does mention all the results.
+Accuracy: 1/5. The point of the prototype model was missed, this results in inaccuracy of the numbers mentioned. Things like “they only gave vague or irrelevant outputs” was made up
+Coherence: 3/5. The conclusion is mostly coherent, yet ideas could be organized more clearly.
+Insightfulness: 4/5 “In conclusion, our replication study showed that using LLMs to predict VTT at HKP is a very challenging and complex task that requires high-quality data, feature engineering and model setup.”
+Conciseness: 4/5: The conclusion mostly avoids wordiness but could be slightly more compact.
+
+Practical Usage
+Relevance: 2/5. somwhat relevant, but not a lot of reflection of usage in the port. Only on LLMs.
+Accuracy: 3/5. No false information given, but ‘data quality’ is blamed and not the quality of the LLMs
+Coherence: 4/5. It is logically structured and easy to follow,
+Insightfulness: 4/5: Gives it’s own insights, not mentioned by the prompt
+Conciseness: 5/5: No wordiness
+
+Future research
+Relevance: 2/5. Most points of future research given in prompt were ignored. 
+Accuracy: 3/5. No false information is given, but many information is ignored.
+Coherence: 2/5. list of points.
+Insightfulness: 4/5. Thoughts of LLM, not provided in prompt, are given.
+Conciseness: 5/5. Not too long, not too short. No wordiness

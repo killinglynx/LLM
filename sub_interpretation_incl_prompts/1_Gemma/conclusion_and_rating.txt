@@ -1,0 +1,33 @@
+Conclusion: **Conclusion:**  The results achieved by both prototype XGBoost model as well the LLM replication attempt demonstrate significant potential for improving vessel turnaround time (VTT) prediction accuracy at HKP port, thereby enhancing overall operational efficiency of ports worldwide . 
+
+Future researcch
+While this research successfully replicated key aspects and delivered promising outcomes in VTT estimation using an LLM-based approach , there are several areas that require further exploration. The findings suggest the need to delve deeper into alternative LLM architectures as well explore various model configurations for improved performance evaluation metrics such  as RMSE, MAE or R2 . Additionally incorporating more diverse datasets with richer contextual information and exploring different data preprocessing techniques could potentially lead even better results in VTT prediction accuracy
+
+Practical usage
+Practical usage of this research involves leveraging accurate VTT estimates to optimize port operations , allocate berths efficiently based on real-time traffic patterns. This can significantly reduce vessel waiting times, improve cargo handling efficiency  and ultimately contribute positively towards global trade competitiveness . 
+
+
+In conclusion the successful replication and insights gained from applying LLMs in VTT prediction provide a strong foundation for future research endeavors aimed at further improving accuracy , refining methodologies as well exploring novel solutions to optimize port operations.
+
+
+       Evaluation by me
+Conclusion
+Relevance: 2/5. Keypoint of replication using LLMs missed. 
+Accuracy: 3/5. The replication was NOT succesful  
+Coherence: 4/5. The structure is coherent
+Insightfulness: 1/5: No new insights given.
+Conciseness: 4/5: No wordiness. Very short.
+
+Practical Usage
+Relevance: 2/5. keypoint of replication using LLMs missed.
+Accuracy: 5/5. No false information.
+Coherence: 4/5. The structure is coherent
+Insightfulness: 1/5: No new insights given.
+Conciseness: 4/5: No wordiness. Very short.
+
+Future research
+Relevance: 3/5. Quite relevant to research, but not all points mentioned by prompt are noticed.
+Accuracy: 3/5. The replication was NOT succesful 
+Coherence: 4/5. The structure is quite coherent
+Insightfulness: 3/5. Gave good some insights not mentioned in prmpt
+Conciseness: 5/5: No wordiness.

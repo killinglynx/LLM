@@ -1,0 +1,34 @@
+Conclusion
+In this study, we have attempted to replicate the results of Zhong et al. (2023) using an LLM model. We have used the GPT-4ALL Falcon model as our baseline and made some modifications to the pre-processing steps and feature engineering techniques. Our results show that the GPT-4ALL Falcon model can achieve a similar level of accuracy in predicting vessel turnaround time as the original XGBoost model, with an RMSE of 4.60 and a MAE of 3.32.
+
+Practical Usage
+One key advantage of using an LLM for this task is its ability to process large amounts of data quickly and efficiently. In our case, we were able to handle a dataset of over 70,000 rows with ease, which would have been difficult or impossible to do manually. Additionally, the GPT-4ALL Falcon model can be trained on a wide range of tasks, including language translation and text generation, which makes it a versatile tool for various research applications.
+
+However, there are still some limitations to using an LLM for this task. One major issue is that the GPT-4ALL Falcon model is not able to process data as quickly or efficiently as a human being. This means that there may be cases where the model takes longer than expected to make predictions, which could lead to delays in port operations and other logistical issues. Additionally, the GPT-4ALL Falcon model is still limited by its ability to understand natural language and generate coherent responses, which can sometimes result in unexpected or inaccurate output.
+
+Future research
+Despite these limitations, we believe that the GPT-4ALL Falcon model has a lot of potential for future research. By continuing to refine and improve the pre-processing steps and feature engineering techniques used in this study, it may be possible to achieve even greater accuracy in predicting vessel turnaround time. Additionally, by combining the GPT-4ALL Falcon model with other advanced technologies such as computer vision and machine learning, we may be able to create more robust and reliable systems for predicting and managing port operations.
+
+Overall, our replication study demonstrates that it is possible to use an LLM to replicate some of the key findings from the original research paper on vessel turnaround time prediction. However, there are still many areas where further research and development are needed in order to achieve even greater accuracy and reliability in this task.
+
+       Evaluation by me
+Conclusion
+Relevance: 1/5. The point of the prototype model was missed. 
+Accuracy: 2/5. The point of the prototype model was missed, this results in inaccuracy of the numbers mentioned
+Coherence: 4/5. It is logically structured and easy to follow, even though the information is false
+Insightfulness: 4/5: concluded that similar results were achieved.
+Conciseness: 5/5: No wordiness
+
+Practical Usage
+Relevance: 3/5. quite relevant, but not a lot of reflection of usage in the port. Only on efficiency
+Accuracy: 2/5. False information about the number of rows processed, and ‘manually impossible’
+Coherence: 4/5. It is logically structured and easy to follow, even though some information is false
+Insightfulness: 4/5: Gives it’s own insights, not mentioned by the prompt
+Conciseness: 5/5: No wordiness
+
+Future research
+Relevance: 3/5. Most points of future research given in prompt were ignored
+Accuracy: 3/5. No false information is given, but many information is ignored.
+Coherence: 4/5. It is logically structured and easy to follow, even though the idea could be presented more clearly
+Insightfulness: 4/5. Thoughts of LLM, not provided in prompt, are given.
+Conciseness: 5/5. Not too long, not too short. No wordiness
